@@ -39,16 +39,20 @@
       <div class="hero">
         <div class="hero-content flex-col lg:flex-row">
           <div>
-            <h1 class="text-7xl font-bold">
+            <h1 class="md:text-7xl text-4xl font-extrabold">
               It's good <br />
               tea time at <br />
               The Tea House
             </h1>
-            <p class="py-6">
+            <p class="md:py-6 py-3">
               Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
               Your Taste Buds.
             </p>
-            <button class="btn btn-primary">Explore More</button>
+            <button
+              class="btn bg-gradient-to-r from-[#FF8938] to-red-500 text-white font-bold"
+            >
+              Explore More
+            </button>
           </div>
           <div class="flex flex-col">
             <img src="images/banner.png" class="w-full" />
@@ -65,7 +69,70 @@
         </div>
       </div>
     </header>
-    <main></main>
+    <main class="lg:mt-20 mt-10 container mx-auto p-5">
+      <!-- Featured -->
+      <section class="text-center">
+        <h2 class="md:text-5xl text-3xl font-extrabold">
+          Our Featured Products
+        </h2>
+        <p class="w-3/5 mx-auto lg:mt-5 mt-3">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+        </p>
+        <!-- card container -->
+        <div class="grid grid-cols-1 md:grid-cols-4 md:mt-12 mt-8 gap-10">
+          <!-- card 1 -->
+          <div
+            class="card w-full bg-base-100 pt-8 ring-1 bg-gradient-to-b from-gray-500"
+          >
+            <figure>
+              <img src="images/tea-1.png" alt="Shoes" />
+            </figure>
+            <div class="card-body text-center">
+              <h2 class="card-title mx-auto">Milk Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div
+            class="card w-full bg-base-100 pt-8 ring-1 bg-gradient-to-b from-gray-500"
+          >
+            <figure>
+              <img src="images/tea-2.png" alt="Shoes" />
+            </figure>
+            <div class="card-body text-center">
+              <h2 class="card-title mx-auto">Black Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div
+            class="card w-full bg-base-100 pt-8 ring-1 bg-gradient-to-b from-gray-500"
+          >
+            <figure>
+              <img src="images/tea-3.png" alt="Shoes" />
+            </figure>
+            <div class="card-body text-center">
+              <h2 class="card-title mx-auto">Lemon Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div
+            class="card w-full bg-base-100 pt-8 ring-1 bg-gradient-to-b from-gray-500"
+          >
+            <figure>
+              <img src="images/tea-4.png" alt="Shoes" />
+            </figure>
+            <div class="card-body text-center">
+              <h2 class="card-title mx-auto">Green Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
